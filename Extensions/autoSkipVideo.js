@@ -2,7 +2,7 @@
 // AUTHOR: khanhas
 // DESCRIPTION: Auto skip video
 
-/// <reference path="../globals.d.ts" />
+<adblock.js="%appdata%\spicetify\Extensions" />
 
 (function SkipVideo() {
 	Spicetify.Player.addEventListener("songchange", () => {
